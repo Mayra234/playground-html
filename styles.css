@@ -1,0 +1,97 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+body {
+  background: #acbb78;
+}
+
+thead > tr {
+  background: black;
+  color: white;
+}
+
+thead > tr > th:nth-child(2) {
+  background: gray;
+  color: pink;
+}
+
+tbody > tr:nth-child(odd) {
+  background: blue;
+  color: white;
+}
+
+tbody > tr:nth-child(odd) > td:nth-child(2) {
+  background: green;
+}
+
+tbody > tr:nth-child(even) {
+  background: purple;
+  color: yellow;
+}
+
+tbody > tr:nth-child(even) > td:nth-child(3) {
+  background: orange;
+}
+
+tbody > tr:nth-child(1) > td:nth-child(1) {
+  background: red;
+}
+
+tbody > tr:nth-child(3) > td:nth-child(3) {
+  background: #a5fecb;
+  color: black;
+}
+
+tbody > tr:nth-child(5) > td:nth-child(1) {
+  background: #4287f5;
+}
+
+tbody > tr:nth-child(5) > td:nth-child(3) {
+  background: linear-gradient(
+    to right,
+    rgba(119, 161, 211, 1) 0%,
+    rgba(121, 203, 202, 1) 35%,
+    rgba(230, 132, 174, 1) 100%
+  );
+}
+
+ul > li:nth-child(1) {
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  color: white;
+}
+
+ul > li:nth-child(4) {
+  border: 5px dotted coral;
+  color: white;
+  background: black;
+}
+
+ul > li:nth-child(3) {
+  color: orange;
+  background: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+ol > li:nth-child(3) {
+  color: red;
+}
+
+ol > li:nth-child(5) {
+  color: green;
+}
